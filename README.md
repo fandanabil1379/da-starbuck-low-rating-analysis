@@ -1,20 +1,25 @@
-# Navigating Negative Feedback: Strategies for Addressing Low Ratings in American Starbucks
+# Turning Criticism into Opportunity: Proactive Strategies to Tackle Negative Feedback at Starbucks
 
-## About
-This repository contains an analysis of low customer satisfaction ratings for Starbucks in the US, based on reviews from ConsumerAffairs. The project identifies key factors contributing to 1-star reviews, utilizing data preprocessing, frequent word extraction, n-grams, and collocations to uncover recurring themes and patterns. The analysis provides actionable insights for improving customer satisfaction, focusing on service, product quality, and cleanliness, with a particular emphasis on feedback from California.
+Welcome to this repository! This project leverages data science techniques to uncover the reasons behind low customer ratings for Starbucks, aiming to provide actionable insights that enhance customer satisfaction and brand reputation.
 
-## Features
-- <b>Dataset</b>: ConsumerAffairs reviews dataset (preprocessed with added columns for state, year, and clean reviews).
-- <b>Analysis</b>: Examination of rating scores, frequent words, n-grams, and collocations in 1-star reviews.
-- <b>Visualizations</b>: Trends and distributions of low ratings, review lengths, and common complaint themes.
-- <b>Recommendations</b>: Strategies for Starbucks to address customer pain points and improve satisfaction.
+## Project Overview
 
-## Feedback
-If you have suggestions for improvements, feel free to contact me here:
+Low customer ratings can significantly impact Starbucks’ customer loyalty and overall brand perception. This project builds a comprehensive analysis framework designed to:
 
-<a href="https://www.linkedin.com/in/adelia-januarto/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"/>
-  </a>
-<a href="mailto:januartoadelia@gmail.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg"  width="52" height="40" alt="gmail logo"/>
-  </a>
+- **Understand customer sentiment:** Explore and visualize customer reviews to uncover patterns and insights related to dissatisfaction and negative feedback.
+- **Identify key factors of low ratings:** Pinpoint critical issues such as product quality, service experience, or pricing that contribute to lower star ratings.
+- **Analyze review trends:** Examine temporal and regional trends in customer ratings to identify recurring issues or seasonal patterns.
+- **Deliver actionable recommendations:** Provide clear, data-driven suggestions to address customer concerns, improve service quality, and enhance the overall customer experience.
+
+This solution incorporates advanced sentiment analysis, feature extraction, and visualization techniques to ensure a thorough understanding of the factors driving low ratings and actionable strategies for improvement.
+
+## Project Structure
+
+    starbuck-low-rating-analysis/
+    │
+    ├── data/                   # Raw and processed data
+    ├── notebooks/              # Jupyter Notebooks for Exploratory Data Analysis (EDA)
+    ├── requirements.txt        # Dependencies
+    └── README.md               # Project documentation
+
+Contributions are welcome! Feel free to open issues or submit pull requests for improvements.
